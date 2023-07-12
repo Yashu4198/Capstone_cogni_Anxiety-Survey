@@ -14,8 +14,8 @@ mail = Mail(app)
 
 @app.get('/')
 def index():
-    if (db.response.count_documents({}) > 0):
-        sample_record = db.response.find_one({}, sort=[( '_id', -1 )])
+    if (db.Anxiety.count_documents({}) > 0):
+        sample_record = db.Anxiety.find_one({}, sort=[( '_id', -1 )])
         admin_emails = [user['email'] for user in db.Users.find()]
         msg = Message('Health and Wellness Survey: New Submission Receieved!', recipients=admin_emails)
         msg.body = render_template('cognixrsummary.html', **sample_record)
@@ -39,7 +39,7 @@ def get_form_submission():
     data['severity'] = severity
     data['score'] = total_score
     #data['severity_breakdown'] = breakdown
-    db.response.insert_one(data)
+    db.Anxiety.insert_one(data)
     msg = Message('Health and Wellness Survey: New Submission Receieved!', recipients=admin_emails)
     msg.body = render_template('cognixrsummary.html', **data)
     msg.html = render_template('cognixrsummary.html', **data)
