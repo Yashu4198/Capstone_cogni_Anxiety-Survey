@@ -46,7 +46,7 @@
     Africa : 0
     Other : 0
     
-- question_slug: ethinicity
+- question_slug: ethnicity
   type: single_select
   answer_scores:
     Asian : 0
@@ -132,6 +132,13 @@
     'Helpless' : 0
     'Other' : 0
 
+- question_slug: counseling
+  type: single_select
+  answer_scores:
+    Yes : 0
+    No : 0
+    Maybe : 0
+
 - question_slug: behavioral
   type: single_select
   answer_scores:
@@ -172,7 +179,7 @@
     'Helpless' : 0
     'Other' : 0
     
-- question_slug: therapist
+- question_slug: lack
   type: single_select
   answer_scores:
     Really Affected me : 0
