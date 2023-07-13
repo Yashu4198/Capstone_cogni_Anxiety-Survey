@@ -78,17 +78,16 @@
 - question_slug: competence
   type: single_select
   answer_scores:
-    '0' : 0
-    '1' : 1
-    '2' : 2
-    '3' : 3
-    '4' : 4
-    '5' : 5
-    '6' : 6
-    '7' : 7
-    '8' : 8
-    '9' : 9
-    '10' : 10
+    '1' : 10
+    '2' : 9
+    '3' : 8
+    '4' : 7
+    '5' : 6
+    '6' : 5
+    '7' : 4
+    '8' : 3
+    '9' : 2
+    '10' : 1
 
 - question_slug: medication
   type: single_select
@@ -102,17 +101,16 @@
 - question_slug: well-being
   type: single_select
   answer_scores:
-    '0' : 0
-    '1' : 1
-    '2' : 2
-    '3' : 3
-    '4' : 4
-    '5' : 5
-    '6' : 6
-    '7' : 7
-    '8' : 8
-    '9' : 9
-    '10' : 10
+    '1' : 10
+    '2' : 9
+    '3' : 8
+    '4' : 7
+    '5' : 6
+    '6' : 5
+    '7' : 4
+    '8' : 3
+    '9' : 2
+    '10' : 1
 
 - question_slug: stress
   type: text 
@@ -182,130 +180,130 @@
 - question_slug: lack
   type: single_select
   answer_scores:
-    Really Affected me : 0
-    Somewhat affected me : 0
-    Never affected me : 0
-    I have not undergone therapy until now : 0
+    'Really Affected me' : 0
+    'Somewhat affected me' : 0
+    'Never affected me' : 0
+    'I have not undergone therapy until now' : 0
 
 - question_slug: believe
   type: single_select
   answer_scores:
-    1-2 sessions : 0
-    2-4 sessions : 0
-    4-6 sessions : 0
-    6-12 sessions : 0
-    12 sessions and more : 0
+    '1-2 sessions' : 0
+    '2-4 sessions' : 0
+    '4-6 sessions' : 0
+    '6-12 sessions' : 0
+    '12 sessions and more' : 0
 
 - question_slug: upset
   type: single_select
   answer_scores:
     Never : 0
-    From time to time : 0
-    Often : 0
-    Most of the time : 0
+    From time to time : 1
+    Often : 2
+    Most of the time : 3
     
 - question_slug: enjoy
   type: single_select
   answer_scores:
-    Yes, just as much : 0
-    Not that much : 0
-    Just a little : 0
-    more than before : 0    
+    Yes, just as much : 1
+    Not that much : 3
+    Just a little : 2
+    more than before : 0  
 
 - question_slug: terrible
   type: single_select
   answer_scores:
     Not at all : 0
-    A little, but that doesn't bother me : 0
-    Yes, but it's not too bad : 0
-    Yes, very intensely : 0 
+    A little, but that doesn't bother me : 1
+    Yes, but it's not too bad : 2
+    Yes, very intensely : 3
 
 - question_slug: laugh 
   type: single_select
   answer_scores:
     As much as I did in the past : 0
-    Not as much as before : 0
-    A lot less than before : 0
-    Not at all : 0 
+    Not as much as before : 1
+    A lot less than before : 2
+    Not at all : 3
 
 - question_slug: worried 
   type: single_select
   answer_scores:
     very occasionally : 0
-    Ocassionally : 0
-    Often enough : 0
-    Very often : 0 
+    Ocassionally : 1
+    Often enough : 2
+    Very often : 3
 
 - question_slug: mood 
   type: single_select
   answer_scores:
     Most of the time : 0
-    Often enough : 0
-    Rarely : 0
-    Never : 0 
+    Often enough : 1
+    Rarely : 2
+    Never : 3
 
 - question_slug: relaxed 
   type: single_select
   answer_scores:
     Yes, no matter what : 0
-    Yes, in general : 0
-    Rarely : 0
-    Never : 0 
+    Yes, in general : 1
+    Rarely : 2
+    Never : 3
 
 - question_slug: motion 
   type: single_select
   answer_scores:
     Never : 0
-    Sometimes : 0
-    Very often : 0
-    Almost always : 0 
+    Sometimes : 1
+    Very often : 2
+    Almost always : 3 
     
 - question_slug: stomach
   type: single_select
   answer_scores:
     Never : 0
-    Sometimes : 0
-    Often enough : 0
-    Very often : 0  
+    Sometimes : 1
+    Often enough : 2
+    Very often : 3
 
 - question_slug: appearance
   type: single_select
   answer_scores:
     I pay as much attention to it as in the past : 0
-    I may not pay as much attention to it anymore : 0
-    I don't pay as much attention to it as I should : 0
-    Not at all : 0
+    I may not pay as much attention to it anymore : 1
+    I don't pay as much attention to it as I should : 2
+    Not at all : 3
 
 - question_slug: place
   type: single_select
   answer_scores:
     No way : 0
-    Not really : 0
-    A little : 0
-    Yes, that is absolutely the case : 0
+    Not really : 1
+    A little : 2
+    Yes, that is absolutely the case : 3
 
 - question_slug: forward
   type: single_select
   answer_scores:
     As much as before : 0
-    A little less than before : 0
-    Much less than before : 0
-    Almost never : 0
+    A little less than before : 1
+    Much less than before : 2
+    Almost never : 3
 
 - question_slug: panic
   type: single_select
   answer_scores:
     Never : 0
-    Not very often : 0
-    Often enough : 0
-    Very often : 0
+    Not very often : 1
+    Often enough : 2
+    Very often : 3
 
 - question_slug: television
   type: single_select
   answer_scores:
     Often : 0
-    Sometimes : 0
-    Rarely : 0
-    Very rarely : 0
+    Sometimes : 1
+    Rarely : 2
+    Very rarely : 3
 
 
